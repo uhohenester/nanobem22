@@ -27,7 +27,7 @@ if isempty( tol ),  return;  end
 cim = eval2( cim, data, 'tol', tol );
 %  add nonresonant background to CIM solver
 ktab = 2 * pi ./ [ 450, 600, 700 ];
-cim.nonresonant = diffcalderon( cimb, data.bem, ktab );
+cim.nonresonant = diffcalderon( cim, data.bem, ktab );
 
 %  planewave excitation
 exc = galerkin.planewave( [ 1, 0, 0 ], [ 0, 0, 1 ] );
