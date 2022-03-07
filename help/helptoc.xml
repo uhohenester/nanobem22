@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding="utf-8"?>
+
+<toc version="2.0">
+<!-- First tocitem specifies top level in Help browser Contents pane -->
+<!-- This can be a roadmap page, as shown below, or a content page -->
+    <tocitem target="html/nanobem_product_page.html">nanobem Toolbox
+        <!-- Nest tocitems to create hierarchical entries in  Contents-->
+        <!-- To include icons, use the following syntax for tocitems: -->
+        <!-- <tocitem target="foo.html" image="HelpIcon.NAME"> -->
+        <!-- Title-of-Section </tocitem> -->
+        <!-- where NAME is one of the following (use capital letters): -->
+        <!-- FUNCTION, USER_GUIDE, EXAMPLES, BLOCK, GETTING_STARTED, -->
+        <!-- DEMOS, RELEASE_NOTES --> 
+        <!-- Icon images used for these entries are also stored in -->
+        <!-- matlabroot/toolbox/matlab/icons -->
+        <!-- A Getting Started Guide usually comes first -->
+        <!-- User Guide comes next -->
+        <!-- Optional List of Examples, with hyperlinks to examples in other files -->
+        <tocitem target="html/nanobem_base.html" 
+            image="HelpIcon.USER_GUIDE">Base classes 
+          <tocitem target="html/nanobem_boundary.html"> BoundaryElement     </tocitem>
+          <tocitem target="html/nanobem_material.html"> Material            </tocitem>
+          <tocitem target="html/nanobem_particle.html"> Particle            
+              <tocitem target="html/nanobem_polygon.html">      polygon     </tocitem>
+              <tocitem target="html/nanobem_edgeprofile.html">  edgeprofile </tocitem>
+              <tocitem target="html/nanobem_polygon3.html">     polygon3    </tocitem>
+          </tocitem>              
+          <tocitem target="html/nanobem_point.html">    Point               </tocitem>
+          <tocitem target="html/nanobem_quad.html">     Quadrature
+            <tocitem target="html/nanobem_potbase.html">      potbase        </tocitem>
+            <tocitem target="html/nanobem_quadboundary.html"> quadboundary   </tocitem>
+            <tocitem target="html/nanobem_quadduffy.html">    quadduffy      </tocitem>
+            <tocitem target="html/nanobem_quadengine.html">   Quadrature engine  </tocitem>
+          </tocitem>
+          <tocitem target="html/nanobem_tensor.html"> Tensor    </tocitem>
+        </tocitem>
+        
+        <tocitem target="html/nanobem_ret.html" 
+            image="HelpIcon.USER_GUIDE">Maxwell solver         
+          <tocitem target="html/nanobem_ret_start.html"> Getting started   </tocitem>
+          <tocitem target="html/nanobem_ret_edge.html">  BoundaryEdge      </tocitem>
+          <tocitem target="html/nanobem_ret_bem.html">   galerkin.bemsolver   
+            <tocitem target="html/nanobem_ret_bem2.html"> Working principle  </tocitem>
+          </tocitem>
+          <tocitem target="html/nanobem_ret_cim.html">      galerkin.cimsolver   </tocitem>
+          <tocitem target="html/nanobem_ret_solution.html"> galerkin.solution    </tocitem>
+          <tocitem target="html/nanobem_ret_simulation.html">   Simulations   
+            <tocitem target="html/nanobem_ret_dipole.html">    galerkin.dipole    </tocitem>
+            <tocitem target="html/nanobem_ret_planewave.html"> galerkin.planewave </tocitem>
+            <tocitem target="html/nanobem_ret_spectrum.html">  galerkin.spectrum  </tocitem>
+            <tocitem target="html/nanobem_ret_excitation.html">  User-defined excitation  </tocitem>
+          </tocitem>
+          <tocitem target="html/nanobem_ret_mie.html">  Mie theory  </tocitem>
+        </tocitem>
+       <tocitem target="html/nanobem_stat.html" 
+            image="HelpIcon.USER_GUIDE">Quasistatic Maxwell solver   
+          <tocitem target="html/nanobem_stat_start.html"> Getting started   </tocitem>
+          <tocitem target="html/nanobem_stat_vert.html">  BoundaryVert      </tocitem>
+          <tocitem target="html/nanobem_stat_bem.html">   galerkinstat.bemsolver   
+            <tocitem target="html/nanobem_stat_bem2.html"> Working principle  </tocitem>
+          </tocitem>            
+          <tocitem target="html/nanobem_stat_eig.html"> galerkinstat.eig          </tocitem>
+          <tocitem target="html/nanobem_stat_solution.html"> galerkinstat.solution  </tocitem>
+          <tocitem target="html/nanobem_stat_simulation.html">   Simulations   
+            <tocitem target="html/nanobem_stat_dipole.html">    galerkinstat.dipole    </tocitem>
+            <tocitem target="html/nanobem_stat_planewave.html"> galerkinstat.planewave </tocitem>
+            <tocitem target="html/nanobem_stat_excitation.html">  User-defined excitation  </tocitem>
+          </tocitem>          
+          <tocitem target="html/nanobem_stat_mie.html">  Quasistatic Mie theory  </tocitem>
+        </tocitem>        
+        <!-- Examples, with hyperlinks to examples in other files -->
+         <tocitem target="html/nanobem_examples.html" 
+            image="HelpIcon.USER_GUIDE">nanobem Examples
+        </tocitem> 
+    </tocitem>
+</toc>
