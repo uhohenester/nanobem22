@@ -25,4 +25,4 @@ To set up the nanobem help pages, you must install them once.  To this end, you 
 
     makehelp
   
-A detailed help of the Toolbox and a number of demo files are then available in the Matlab help pages which can be found on the start page of the help browser under Supplemental Software.
+A detailed help of the toolbox and a number of demo files are then available in the Matlab help pages which can be found on the start page of the help browser under Supplemental Software.
