@@ -13,6 +13,7 @@ To set up the NANOBEM help pages, you must install them once.
 To this end, you must
 
   (1)  change in Matlab to the main directory of the NANOBEM toolbox, and
+  
   (2)  run the file makehelp.
   
 A detailed help of the Toolbox and a number of demo files are then 
